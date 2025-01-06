@@ -1,4 +1,4 @@
-This is not a professinal document by any means, it's just a basic set up for friends.
+This is not a professinal document, it's just a basic set up for friends.
 # xmonad-configuration-and-set-up.
 Files for a fresh xmonad set up. 
 Make sure you have installed awesome fonts or whatever font you want to use for your icons and font on xmobar.
