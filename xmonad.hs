@@ -65,7 +65,6 @@ myKeys =
 	,("M-r", spawn "rofi -show drun") -- launch rofi without dmenu
 	,("<Print>", spawn "scrot") -- take a fullscreen screenshot
 	,("M-<Print>", spawn "scrot -s") -- take a screenshot from a specific area
-	,("M-S-i", spawn "setxkbmap -layout $(setxkbmap -query | grep layout | awk '{print $2}' | grep -q 'us' && echo 'latam' || echo 'us')") -- -- toggle between us and latam layouts
 	]
 
 -- MANAGE HOOK
@@ -88,4 +87,3 @@ myLayout = renamed [Replace ""]
 myStartupHook = do
 	spawn "nm-applet"
 	spawn "xwallpaper --zoom ~/Pictures/wallpapers/Bentheim.jpg"
-	spawnOnce "setxkbmap -layout latam"
